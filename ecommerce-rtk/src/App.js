@@ -1,10 +1,13 @@
-import React from 'react';
-import Home from './pages/Home';
+import React from "react";
+import Home from "./pages/Home";
+import { ToastProvider } from "react-toast-notifications";
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <ToastProvider placement="bottom-left">
+      <div className="App">
+        <Home />
+      </div>
+    </ToastProvider>
   );
 }
 
