@@ -14,7 +14,7 @@ const Hero = () => {
                 </span>
             </h1>
             <p className="text-sm sm:text-base text-gray-700 dark:text-white">
-                Hora de vender con redux rtk.
+                Hora de vender con Recoil.
             </p>
             <div className="flex mt-8">
                 <a href="/" className="uppercase py-2 px-4 rounded-lg bg-pink-500 border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400">
@@ -24,7 +24,7 @@ const Hero = () => {
             </div>
         </div>
         <div className="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
-            <img src="/logo512.png" className="max-w-xs md:max-w-sm m-auto" alt="heroslide"/>
+            <img src="/logo.svg" className="max-w-xs md:max-w-sm m-auto" alt="heroslide"/>
         </div>
     </div>
 </div>
